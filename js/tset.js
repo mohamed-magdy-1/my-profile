@@ -38,3 +38,14 @@ Connection.onclick =function(){
     boxCont.style.display="none"
     boxCont2.classList.add('none')
 }
+
+
+
+// proloder
+
+let proloder =document.getElementById("proloder");
+
+window.addEventListener("load", function(){
+    proloder.style.display = "none"
+
+})
