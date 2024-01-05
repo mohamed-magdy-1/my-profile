@@ -4,6 +4,7 @@
     --SKILLS-bg-prog:#ff0000;
     --selection-bg:#ff000026;
     --logo-bg:#9f0e0e;
+    --hr-bg:#ff0000;
 }
 
 
@@ -326,7 +327,7 @@ h4 {
 
 hr {
     height: 10px;
-    background-color: #7b00ff;
+    background-color: var(--hr-bg);
 }
 
 .box-cont-2 .Like {
