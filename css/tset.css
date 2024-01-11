@@ -96,7 +96,7 @@ body {
 
 .container .logo img {
     width: 60px;
-    height: 59px;
+    height: 60px;
     background: var(--logo-bg);
     border-radius: 50%;
     margin-top: -5px;
@@ -169,7 +169,6 @@ body {
 }
 
 .container .cont img {
-    width: 100%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -428,6 +427,7 @@ hr {
     width: 300px;
     height: 180px;
     overflow: hidden;
+    position: relative;
     margin: 10px;
     padding: 0;
     border-radius: 5px;
@@ -444,11 +444,22 @@ hr {
 
 .box-cont-3 .box-3 .box-card-1 img {
     width: 100%;
+    height: 100%;
 
+}
+
+.box-cont-3 .box-3 .box-card-1 a{
+display: block;
+width: 100%;
+height: 100%;
 }
 
 .box-cont-3 .box-3 .box-card-1 .p-cont {
     background-color: var(--SKILLS-bg-2);
+    width: 100%;
+    padding: 2px;
+    position: absolute;
+    bottom: -1px;
 
 }
 
